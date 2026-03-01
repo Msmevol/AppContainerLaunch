@@ -1,0 +1,68 @@
+# 可执行文件
+*.exe
+*.EXE
+*.dll
+*.DLL
+*.so
+*.dylib
+
+# 日志文件
+*.log
+*.LOG
+logs/
+*.log.*
+
+# JSON 文件
+*.json
+*.JSON
+config.json
+appsettings.json
+package-lock.json
+
+# 编译输出
+bin/
+obj/
+Debug/
+Release/
+*.pdb
+*.user
+*.suo
+
+# 临时文件
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
